@@ -14,6 +14,8 @@
 		B54EED6C1B8BBEEA00E9D662 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54EED6B1B8BBEEA00E9D662 /* Images.xcassets */; };
 		B54EED6F1B8BBEEA00E9D662 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B54EED6D1B8BBEEA00E9D662 /* LaunchScreen.xib */; };
 		B54EED7B1B8BBEEA00E9D662 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B54EED7A1B8BBEEA00E9D662 /* FunFactsTests.m */; };
+		B54EED861B8BCDD700E9D662 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = B54EED851B8BCDD700E9D662 /* FactBook.m */; };
+		B54EED8B1B8BDC5900E9D662 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = B54EED8A1B8BDC5900E9D662 /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		B54EED741B8BBEEA00E9D662 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54EED791B8BBEEA00E9D662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B54EED7A1B8BBEEA00E9D662 /* FunFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsTests.m; sourceTree = "<group>"; };
+		B54EED841B8BCDD700E9D662 /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		B54EED851B8BCDD700E9D662 /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		B54EED891B8BDC5900E9D662 /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		B54EED8A1B8BDC5900E9D662 /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,8 @@
 			children = (
 				B54EED621B8BBEEA00E9D662 /* AppDelegate.h */,
 				B54EED631B8BBEEA00E9D662 /* AppDelegate.m */,
-				B54EED651B8BBEEA00E9D662 /* ViewController.h */,
-				B54EED661B8BBEEA00E9D662 /* ViewController.m */,
+				B54EED881B8BD5B100E9D662 /* Controllers */,
+				B54EED871B8BD04700E9D662 /* Models */,
 				B54EED681B8BBEEA00E9D662 /* Main.storyboard */,
 				B54EED6B1B8BBEEA00E9D662 /* Images.xcassets */,
 				B54EED6D1B8BBEEA00E9D662 /* LaunchScreen.xib */,
@@ -117,6 +123,26 @@
 				B54EED791B8BBEEA00E9D662 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B54EED871B8BD04700E9D662 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B54EED891B8BDC5900E9D662 /* ColorWheel.h */,
+				B54EED8A1B8BDC5900E9D662 /* ColorWheel.m */,
+				B54EED841B8BCDD700E9D662 /* FactBook.h */,
+				B54EED851B8BCDD700E9D662 /* FactBook.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B54EED881B8BD5B100E9D662 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B54EED651B8BBEEA00E9D662 /* ViewController.h */,
+				B54EED661B8BBEEA00E9D662 /* ViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +247,9 @@
 			files = (
 				B54EED671B8BBEEA00E9D662 /* ViewController.m in Sources */,
 				B54EED641B8BBEEA00E9D662 /* AppDelegate.m in Sources */,
+				B54EED861B8BCDD700E9D662 /* FactBook.m in Sources */,
 				B54EED611B8BBEEA00E9D662 /* main.m in Sources */,
+				B54EED8B1B8BDC5900E9D662 /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
