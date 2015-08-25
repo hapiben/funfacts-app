@@ -29,9 +29,8 @@
 }
 
 - (NSString *)getRandomFact {
-    NSInteger index = arc4random_uniform((int) self.facts.count);
-    
-    return [self.facts objectAtIndex:index];
+    NSInteger random = arc4random_uniform((int) self.facts.count);
+    return [self.facts objectAtIndex:random];
 }
 
 @end

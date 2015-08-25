@@ -27,8 +27,8 @@
 }
 
 - (UIColor *)getRandomColor {
-    NSInteger index = arc4random_uniform((int) self.colors.count);
-    return [self.colors objectAtIndex:index];
+    NSInteger random = arc4random_uniform((int) self.colors.count);
+    return [self.colors objectAtIndex:random];
 }
                     
 @end
